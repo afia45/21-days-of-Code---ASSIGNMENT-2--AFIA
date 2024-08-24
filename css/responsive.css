@@ -1,0 +1,199 @@
+/* Base Styles for All Screens */
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+p{
+    font-size: 10px;
+}
+
+
+/* Responsive Styles */
+
+/* Tablets */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .nav_container {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+    
+    .nav_link {
+        padding: 10px 0;
+    }
+
+    .search_button {
+      
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .search_button input {
+        width: 80%;
+    }
+
+    .banner_container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .banner_text .title {
+        font-size: 3rem;
+        line-height: 50px;
+    }
+
+    .bike_button{
+        width: 50%;
+        margin: -10px;
+    }
+    
+    .order {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    .order_btn, .play {
+        margin: 10px 0;
+    }
+
+    .banner_img {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .item {
+        width: 100%;
+    }
+
+    .details_container {
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    .detail_2, .detail_3{
+        border: none;
+    }
+
+
+    .product-grid, .extra-product-grid {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .product-grid h3, .extra-product-grid h3{
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 13px;
+        width: 40%;
+    }
+
+    .product-grid span, .extra-product-grid span{
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 10px;
+    }
+
+    .rating-price button{
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .services-grid, .testimonial-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonial-card {
+        order: 1;
+    }
+
+    .testimonial-card blockquote{
+        font-size: 10px;
+    }
+
+    .food-photo {
+        order: 1;
+        margin-bottom: 20px;
+    }
+    /**/
+    
+    .subscribe-content {
+        padding-right: 50px;
+        width: 45%;
+        text-align: justify;
+    }
+    
+    .subscribe-content h2 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .subscribe-content p {
+        font-size: 12px;
+        margin-bottom: 20px;
+       
+    }
+
+    .subscribe-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+    }
+  
+    
+    .subscribe-form button {
+        padding: auto;
+        border: none;
+        border-radius: 10px;
+        background-color: #f6891f;
+        color: #fff;
+        cursor: pointer;
+        font-size: 10px;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    
+    .subscribe-image img {
+        width: 80%;
+        border-radius: 15px;
+        margin-left: -0px;
+    }
+
+    /**/
+
+    .footer p{
+        font-size: 10px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-logo p{
+        width: 100%;
+    }
+
+    .footer-links, .footer-contact {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .footer-links h3, .footer-contact h3{
+        font-size: 14px;
+    }
+
+    .footer-links p, .footer-contact p{
+        line-height: 10px;
+    }
+}
+
