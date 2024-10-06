@@ -7,7 +7,7 @@ This project was assigned by **Programming Hero** as the final assignment for co
 
 
 ## 🔗 Deployed Website Link
-- [Food Delivery Website](https://afia45.github.io/21-days-of-Code---ASSIGNMENT-2--AFIA/)
+- [Food Delivery Website](https://afia45.github.io/Food-and-Delivery-Website/)
 
 
 
